@@ -29,7 +29,7 @@ function word(){
 }
 
 function meaning(newWord){
-    let defU = `https://api.wordnik.com/v4/word.json/${newWord}/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=false&includeTags=false&api_key=`
+    let defU = `https://api.wordnik.com/v4/word.json/${newWord}/definitions?limit=200&includeRelated=false&sourceDictionaries=all&useCanonical=true&includeTags=false&api_key=`
     let api_key = 'a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5'
     let fin = defU+api_key
     // console.log(fin)
